@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 90vh;
+    width: 80vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    border:  inset rgb(190, 189, 189);
+    border-top: none;
+    border-left: none;
+}
+
+.header {
+    width: 100%;
+    height: 9%;
+    background-color: #4472C4 ;
+}
+
+.bod {
+    width: 100%;
+    height: 91%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.btns {
+    width: 95%;
+    height: 15%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 18px;
+}
+
+.btn1 {
+    width: 9rem;
+    height: 2rem;
+    background-color: #4472C4;
+    color: #ffffff;
+    border: none;
+}
+
+
+.btn2 {
+    width: 12rem;
+    height: 2rem;
+    background-color: #4472C4;
+    color: #ffffff;
+    border: none;
+}
+
+.box {
+    margin-left: 18px;
+    width: 95%;
+    height: 80%;
+    background-color: #ffffff;
+    border: 1px groove;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn-nw-prsn {
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+   
+}
+
+.btnin1 {
+    width: 9rem;
+    height: 2rem;
+    background-color: #ffffff;
+    border-left: none;
+    border-top: none;
+    border-bottom:0.5px groove ;
+    border-right: 0.5px groove;   
+}
+
+
+
+.table-sec {
+    width: 100%;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tebl {
+    width: 59rem;
+    height: 2rem;
+    table-layout: fixed;
+    text-align: center;
+    
+    
+}
+
+.tr1 {
+    background-color: #4472C4;
+    height: 2rem;
+}
+
+.td1 {
+    color: #ffffff;
+}
+
+.td2 {
+    background-color: #f2f5fc;
+    height: 2.2rem;
+}
+
+.td2-1{
+    background-color: #f2f5fc;
+    height: 2.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.inpt {
+    height: 1.5rem;
+    width: 7.5rem;
+}
+
+.btn-add {
+    width: 100%;
+    height: 10%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnin2 {
+    width: 7rem;
+    height: 1.7rem;
+    background-color: #4472C4;
+    border: none;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+.header {
+
+    color: #ffffff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*  
+save, delete
+*/
+
+.save,
+.delete {
+   border-left: none;
+   border-top: none;
+   border-right: none;
+   border-bottom: 1px solid blue;
+   background-color:  #f2f5fc;
+   color: blue;
+   font-size: 0.75rem;
+   font-weight: 700;
+
+}
+
+.for {
+    display: flex;
+    gap: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.rtv {
+    width: 13rem;
+}
+
+.set {
+    width: 100%;
+    height: 80%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.entry {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.entry1 {
+    width: 16rem;
+    height: 2.5rem;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+.find {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: #4472C4;
+    color: #ffffff;
+    border: none;
+    margin-top: 14px;
+}
+
+.found {
+    width: 45%;
+    height: auto;
+    border: 1px groove black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px;
+   
+}
+
+
+#sw1,#sw2,#sw3,#sw4,#sw5 {
+    font-size: 2rem;
+    margin-left: 15px;
+    
+}
+
+.nodata {
+    font-size: 3.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
